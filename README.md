@@ -54,32 +54,6 @@ File: 1001_DFA_HAP_XX.wav
 True: HAP | Predicted: HAP | Confidence: 95.9% ✓
 ```
 
-## 🏗️ Project Structure
-
-```
-Emotion-Speech-Detector/
-├── src/
-│   ├── preprocessing.py      # MFCC feature extraction
-│   ├── dataset.py           # PyTorch dataset with augmentation
-│   ├── model.py             # CNN architecture
-│   ├── train.py             # Training pipeline (50 epochs max)
-│   ├── train_quick.py       # Quick demo training (5 epochs)
-│   ├── evaluate.py          # Model evaluation & metrics
-│   └── inference.py         # Single file prediction
-├── data/                    # [Excluded from git]
-│   ├── raw/AudioWAV/       # Original audio files (.wav)
-│   └── processed/          # Extracted MFCC features (.npy)
-├── models/
-│   ├── emotion_model_best.pth       # Best trained model
-│   ├── emotion_model_final.pth      # Final epoch model
-│   └── confusion_matrix_improved.png
-├── run_project.py          # Complete pipeline runner
-├── PROJECT_SUMMARY.md      # Detailed technical documentation
-├── README.md              # This file
-├── .gitignore            # Git ignore rules
-└── requirements.txt      # Python dependencies
-```
-
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
