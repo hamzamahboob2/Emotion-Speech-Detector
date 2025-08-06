@@ -6,21 +6,22 @@ This project implements a deep learning system for detecting emotions from audio
 
 ## 📊 Current Results
 
-### Model Performance (Quick Training - 4 Epochs)
-- **Overall Accuracy**: 29.76%
-- **Training Time**: ~2 minutes on CPU
+### Model Performance (Full Training - 43 Epochs)
+- **Overall Accuracy**: 76.98% 🎉
+- **Training Time**: ~43 epochs with early stopping
 - **Dataset Size**: 7,442 audio samples
 - **Training/Validation Split**: 80/20
+- **Best Validation Loss**: 0.9760
 
 ### Per-Emotion Performance
 | Emotion | Accuracy | Precision | Recall | F1-Score |
 |---------|----------|-----------|---------|----------|
-| ANG (Anger) | 38.79% | 0.76 | 0.39 | 0.51 |
-| DIS (Disgust) | 13.14% | 0.25 | 0.13 | 0.17 |
-| FEA (Fear) | 0.00% | 0.00 | 0.00 | 0.00 |
-| HAP (Happy) | 17.70% | 0.31 | 0.18 | 0.23 |
-| NEU (Neutral) | 8.74% | 0.12 | 0.09 | 0.10 |
-| SAD (Sad) | **97.17%** | 0.27 | 0.97 | 0.42 |
+| ANG (Anger) | **94.57%** | 0.72 | 0.95 | 0.82 |
+| DIS (Disgust) | 72.23% | 0.73 | 0.72 | 0.73 |
+| FEA (Fear) | 77.89% | 0.72 | 0.78 | 0.75 |
+| HAP (Happy) | 70.18% | 0.84 | 0.70 | 0.77 |
+| NEU (Neutral) | 79.30% | 0.89 | 0.79 | 0.84 |
+| SAD (Sad) | 68.06% | 0.78 | 0.68 | 0.73 |
 
 ## 📁 Project Structure
 
